@@ -15,8 +15,6 @@ layout: default
 </section>
 
 
-<div class="demo">
-
 <section class="examples-list">
 
     <article>
@@ -48,7 +46,6 @@ layout: default
     
 </section>
 
-</div>
 
 
 ## 🌟 Pionniers de l'Informatique et de l'IA
