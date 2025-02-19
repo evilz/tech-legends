@@ -3,15 +3,19 @@ title: "Tech Legends"
 layout: default
 ---
 
-<section class="examples-hero">
-
-    <h1><mark>🚀 Tech Legends</mark></h1>
-
-    <p class="secondary">Bienvenue sur **Tech Legends**, une collection des personnalités les plus influentes de
+<section class="hero">
+<div class="hook">
+ <h1><mark>🚀 Tech Legends</mark></h1>
+ <p class="secondary">Bienvenue sur **Tech Legends**, une collection des personnalités les plus influentes de
         l'histoire de la technologie.</p>
+</div>
+   
+
+   
 </section>
 
 
+<div class="demo>
 
 <section class="examples-list">
 
@@ -43,6 +47,8 @@ layout: default
     </article>
     
 </section>
+
+</div>
 
 
 ## 🌟 Pionniers de l'Informatique et de l'IA
