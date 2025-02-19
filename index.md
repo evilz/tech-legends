@@ -15,7 +15,7 @@ layout: default
 </section>
 
 
-<div class="demo>
+<div class="demo">
 
 <section class="examples-list">
 
