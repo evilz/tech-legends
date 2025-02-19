@@ -133,7 +133,7 @@ section {
     margin-block: var(--pico-homepage-spacing-vertical)
 }
 
-body>main.homepage>.hero {
+body>main .hero {
     display: grid;
     grid-template-columns: 1fr;
     -moz-column-gap: var(--pico-homepage-spacing-horizontal);
@@ -144,66 +144,66 @@ body>main.homepage>.hero {
     margin-bottom: 0
 }
 
-body>main.homepage>.hero .demo,
-body>main.homepage>.hero .hook {
+body>main .hero .demo,
+body>main .hero .hook {
     width: 100%;
     min-width: 0
 }
 
-body>main.homepage>.hero .hook {
+body>main .hero .hook {
     z-index: 1;
     position: relative
 }
 
 @media(min-width:1024px) {
-    body>main.homepage>.hero .hook {
+    body>main .hero .hook {
         max-width: 700px
     }
 }
 
 @media(min-width:1280px) {
-    body>main.homepage>.hero .hook {
+    body>main .hero .hook {
         max-width: 950px
     }
 }
 
-body>main.homepage>.hero .hook h1,
-body>main.homepage>.hero .hook p {
+body>main .hero .hook h1,
+body>main .hero .hook p {
     text-wrap: balance
 }
 
 @media(min-width:576px) {
 
-    body>main.homepage>.hero .hook h1,
-    body>main.homepage>.hero .hook p {
+    body>main .hero .hook h1,
+    body>main .hero .hook p {
         text-align: center
     }
 }
 
-body>main.homepage>.hero .hook h1 {
+body>main .hero .hook h1 {
     margin-bottom: calc(var(--pico-spacing) * 2)
 }
 
-body>main.homepage>.hero .hook .grid.ctas {
+body>main .hero .hook .grid.ctas {
     --pico-form-element-spacing-horizontal: 2rem;
     margin-top: calc(var(--pico-spacing) * 4);
     margin-bottom: calc(var(--pico-spacing) * .5)
 }
 
 @media(min-width:576px) {
-    body>main.homepage>.hero .hook .grid.ctas {
+    body>main .hero .hook .grid.ctas {
         display: flex;
         justify-content: center
     }
 }
 
-body>main.homepage>.hero .hook .grid.ctas a[role=button] svg {
+body>main .hero .hook .grid.ctas a[role=button] svg {
     width: auto;
     height: 1rem;
     margin-left: calc(var(--pico-spacing) * .25)
 }
 
-body>main.homepage>.hero>.demo {
+body>main .hero>.demo {
     --angle: 0deg;
     --demo-border-gradient: linear-gradient(var(--angle), var(--pico-demo-border-gradient-colors));
     display: flex;
@@ -212,24 +212,24 @@ body>main.homepage>.hero>.demo {
 }
 
 @supports(-webkit-hyphens:none) {
-    body>main.homepage>.hero>.demo {
+    body>main .hero>.demo {
         animation: none
     }
 }
 
 @media(min-width:768px) {
-    body>main.homepage>.hero>.demo {
+    body>main .hero>.demo {
         max-width: 700px
     }
 }
 
 @media(min-width:1280px) {
-    body>main.homepage>.hero>.demo {
+    body>main .hero>.demo {
         max-width: 950px
     }
 }
 
-body>main.homepage>.hero>.demo article.component {
+body>main .hero>.demo article.component {
     --pico-block-spacing-horizontal: var(--pico-spacing) !important;
     --pico-block-spacing-vertical: calc(var(--pico-spacing) * 1.5) !important;
     display: flex;
@@ -253,7 +253,7 @@ body>main.homepage>.hero>.demo article.component {
 }
 
 @media(min-width:576px) {
-    body>main.homepage>.hero>.demo article.component {
+    body>main .hero>.demo article.component {
         --pico-block-spacing-horizontal: calc(var(--pico-spacing) * 1.5) !important;
         --pico-block-spacing-vertical: calc(var(--pico-spacing) * 2) !important;
         height: calc(24.5rem + var(--pico-block-spacing-vertical))
@@ -261,19 +261,19 @@ body>main.homepage>.hero>.demo article.component {
 }
 
 @media(min-width:768px) {
-    body>main.homepage>.hero>.demo article.component {
+    body>main .hero>.demo article.component {
         height: calc(24.5rem + var(--pico-block-spacing-vertical))
     }
 }
 
 @media(min-width:1024px) {
-    body>main.homepage>.hero>.demo article.component {
+    body>main .hero>.demo article.component {
         height: calc(24rem + var(--pico-block-spacing-vertical))
     }
 }
 
 @media(min-width:1280px) {
-    body>main.homepage>.hero>.demo article.component {
+    body>main .hero>.demo article.component {
         --pico-block-spacing-horizontal: calc(var(--pico-spacing) * 3) !important;
         --pico-block-spacing-vertical: calc(var(--pico-spacing) * 3) !important;
         height: 24rem
@@ -281,97 +281,97 @@ body>main.homepage>.hero>.demo article.component {
 }
 
 @media(min-width:1536px) {
-    body>main.homepage>.hero>.demo article.component {
+    body>main .hero>.demo article.component {
         height: calc(23.5rem + var(--pico-block-spacing-vertical))
     }
 }
 
-body>main.homepage>.hero>.demo article.component form button,
-body>main.homepage>.hero>.demo article.component form input:only-child,
-body>main.homepage>.hero>.demo article.component form input[aria-invalid=true],
-body>main.homepage>.hero>.demo article.component form[role=group],
-body>main.homepage>.hero>.demo article.component form[role=search] {
+body>main .hero>.demo article.component form button,
+body>main .hero>.demo article.component form input:only-child,
+body>main .hero>.demo article.component form input[aria-invalid=true],
+body>main .hero>.demo article.component form[role=group],
+body>main .hero>.demo article.component form[role=search] {
     margin-bottom: 0
 }
 
-body>main.homepage>.hero>.demo article.component form small {
+body>main .hero>.demo article.component form small {
     margin-top: .25rem;
     margin-bottom: 0
 }
 
-body>main.homepage>.hero>.demo article.component form label {
+body>main .hero>.demo article.component form label {
     margin-bottom: 0
 }
 
-body>main.homepage>.hero>.demo article.component form[role=group].is-focused,
-body>main.homepage>.hero>.demo article.component form[role=search].is-focused {
+body>main .hero>.demo article.component form[role=group].is-focused,
+body>main .hero>.demo article.component form[role=search].is-focused {
     --pico-group-box-shadow: var(--pico-group-box-shadow-focus-with-button)
 }
 
-body>main.homepage>.hero>.demo article.component form[role=group].is-focused input:not([type=checkbox], [type=radio]),
-body>main.homepage>.hero>.demo article.component form[role=group].is-focused select,
-body>main.homepage>.hero>.demo article.component form[role=search].is-focused input:not([type=checkbox], [type=radio]),
-body>main.homepage>.hero>.demo article.component form[role=search].is-focused select {
+body>main .hero>.demo article.component form[role=group].is-focused input:not([type=checkbox], [type=radio]),
+body>main .hero>.demo article.component form[role=group].is-focused select,
+body>main .hero>.demo article.component form[role=search].is-focused input:not([type=checkbox], [type=radio]),
+body>main .hero>.demo article.component form[role=search].is-focused select {
     border-color: transparent
 }
 
-body>main.homepage>.hero>.demo article.component form[role=group].is-focused button,
-body>main.homepage>.hero>.demo article.component form[role=search].is-focused button {
+body>main .hero>.demo article.component form[role=group].is-focused button,
+body>main .hero>.demo article.component form[role=search].is-focused button {
     box-shadow: none
 }
 
-body>main.homepage>.hero>.demo article.component form input {
+body>main .hero>.demo article.component form input {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none
 }
 
-body>main.homepage>.hero>.demo article.component form input:not([type=range]).is-focused {
+body>main .hero>.demo article.component form input:not([type=range]).is-focused {
     --pico-border-color: var(--pico-form-element-active-border-color);
     --pico-box-shadow: 0 0 0 var(--pico-outline-width) var(--pico-form-element-focus-color)
 }
 
-body>main.homepage>.hero>.demo article.component form input:not([type=checkbox]).is-focused {
+body>main .hero>.demo article.component form input:not([type=checkbox]).is-focused {
     --pico-background-color: var(--pico-form-element-active-background-color)
 }
 
-body>main.homepage>.hero>.demo article.component form input[type=range].is-focused {
+body>main .hero>.demo article.component form input[type=range].is-focused {
     --pico-range-border-color: var(--pico-range-active-border-color);
     --pico-range-thumb-color: var(--pico-range-thumb-active-color)
 }
 
-body>main.homepage>.hero>.demo article.component form input[type=range].is-focused::-webkit-slider-thumb {
+body>main .hero>.demo article.component form input[type=range].is-focused::-webkit-slider-thumb {
     transform: scale(1.25)
 }
 
-body>main.homepage>.hero>.demo article.component form input[type=range].is-focused::-moz-range-thumb {
+body>main .hero>.demo article.component form input[type=range].is-focused::-moz-range-thumb {
     transform: scale(1.25)
 }
 
-body>main.homepage>.hero>.demo article.component form input[type=range].is-focused::-ms-thumb {
+body>main .hero>.demo article.component form input[type=range].is-focused::-ms-thumb {
     transform: scale(1.25)
 }
 
-body>main.homepage>.hero>.demo article.component form button.is-focused {
+body>main .hero>.demo article.component form button.is-focused {
     --pico-background-color: var(--pico-primary-hover-background);
     --pico-border-color: var(--pico-primary-hover-border);
     --pico-color: var(--pico-primary-inverse);
     --pico-box-shadow: var(--pico-button-hover-box-shadow, 0 0 0 rgba(0, 0, 0, 0)), 0 0 0 var(--pico-outline-width) var(--pico-primary-focus)
 }
 
-body>main.homepage>.hero>.demo article.component form * {
+body>main .hero>.demo article.component form * {
     transition: border-radius var(--pico-transition)
 }
 
-body>main.homepage>.hero>.demo article.component footer.code {
+body>main .hero>.demo article.component footer.code {
     background: 0 0
 }
 
-body>main.homepage>.hero>.demo article.component footer.code pre {
+body>main .hero>.demo article.component footer.code pre {
     overflow: hidden
 }
 
-body>main.homepage>.hero>.demo article.component footer.code [data-typeit-id] .ti-cursor {
+body>main .hero>.demo article.component footer.code [data-typeit-id] .ti-cursor {
     transform: translate(-.25em);
     color: inherit;
     font-style: inherit;
@@ -381,7 +381,7 @@ body>main.homepage>.hero>.demo article.component footer.code [data-typeit-id] .t
     font-family: inherit
 }
 
-body>main.homepage>.hero>.demo article.component .controls {
+body>main .hero>.demo article.component .controls {
     display: grid;
     position: absolute;
     right: 0;
@@ -394,12 +394,12 @@ body>main.homepage>.hero>.demo article.component .controls {
 }
 
 @media(min-width:1280px) {
-    body>main.homepage>.hero>.demo article.component .controls {
+    body>main .hero>.demo article.component .controls {
         opacity: 0
     }
 }
 
-body>main.homepage>.hero>.demo article.component .controls svg {
+body>main .hero>.demo article.component .controls svg {
     width: auto;
     height: 1rem;
     color: var(--pico-muted-color);
@@ -407,15 +407,15 @@ body>main.homepage>.hero>.demo article.component .controls svg {
     transition: color var(--pico-transition)
 }
 
-body>main.homepage>.hero>.demo article.component .controls svg:hover {
+body>main .hero>.demo article.component .controls svg:hover {
     color: var(--pico-secondary-hover)
 }
 
-body>main.homepage>.hero>.demo article.component:hover .controls {
+body>main .hero>.demo article.component:hover .controls {
     opacity: 1
 }
 
-body>main.homepage>.hero>.demo.is-maximized {
+body>main .hero>.demo.is-maximized {
     z-index: 999;
     position: fixed;
     max-width: none;
@@ -424,7 +424,7 @@ body>main.homepage>.hero>.demo.is-maximized {
     background: var(--pico-background-color)
 }
 
-body>main.homepage>.hero>.demo.is-maximized article.component {
+body>main .hero>.demo.is-maximized article.component {
     position: unset;
     max-width: none;
     border-radius: 0;
@@ -432,7 +432,7 @@ body>main.homepage>.hero>.demo.is-maximized article.component {
 }
 
 @media(min-width:576px) {
-    body>main.homepage>.hero>.demo.is-maximized article.component {
+    body>main .hero>.demo.is-maximized article.component {
         max-width: 510px;
         height: auto;
         margin: auto
@@ -440,22 +440,22 @@ body>main.homepage>.hero>.demo.is-maximized article.component {
 }
 
 @media(min-width:1024px) {
-    body>main.homepage>.hero>.demo.is-maximized article.component {
+    body>main .hero>.demo.is-maximized article.component {
         max-width: 700px
     }
 }
 
 @media(min-width:1280px) {
-    body>main.homepage>.hero>.demo.is-maximized article.component {
+    body>main .hero>.demo.is-maximized article.component {
         max-width: 950px
     }
 }
 
-body>main.homepage>.hero>.demo.is-maximized article.component .controls {
+body>main .hero>.demo.is-maximized article.component .controls {
     opacity: 1
 }
 
-body>main.homepage>.hero>.demo:before {
+body>main .hero>.demo:before {
     z-index: 0;
     position: absolute;
     inset: -3rem;
@@ -466,7 +466,7 @@ body>main.homepage>.hero>.demo:before {
     opacity: .25
 }
 
-body>main.homepage>.hero>.demo:after {
+body>main .hero>.demo:after {
     z-index: -1;
     position: absolute;
     inset: -1px;
@@ -475,11 +475,11 @@ body>main.homepage>.hero>.demo:after {
     content: ""
 }
 
-body>main.homepage>.stats {
+body>main .stats {
     margin-top: calc(var(--pico-homepage-spacing-vertical) * .25)
 }
 
-body>main.homepage>.stats ul {
+body>main .stats ul {
     display: grid;
     -moz-column-gap: calc(var(--pico-spacing) * 2);
     column-gap: calc(var(--pico-spacing) * 2);
@@ -490,27 +490,27 @@ body>main.homepage>.stats ul {
 }
 
 @media(min-width:576px) {
-    body>main.homepage>.stats ul {
+    body>main .stats ul {
         grid-template-columns: repeat(3, 1fr)
     }
 }
 
-body>main.homepage>.stats ul li {
+body>main .stats ul li {
     margin: 0;
     list-style-type: none
 }
 
 @media(min-width:576px) {
-    body>main.homepage>.stats ul li {
+    body>main .stats ul li {
         text-align: center
     }
 }
 
-body>main.homepage>.stats ul li p {
+body>main .stats ul li p {
     margin: 0
 }
 
-body>main.homepage>.stats ul li p.count {
+body>main .stats ul li p.count {
     margin-bottom: calc(var(--pico-spacing) * .25);
     color: var(--pico-stats-color);
     font-size: 1.75rem;
@@ -518,11 +518,11 @@ body>main.homepage>.stats ul li p.count {
     font-family: Figtree, var(--pico-font-family)
 }
 
-body>main.homepage>.stats ul li p.label a {
+body>main .stats ul li p.label a {
     text-decoration: none
 }
 
-body>main.homepage>.stats ul li p.label a svg {
+body>main .stats ul li p.label a svg {
     display: inline-block;
     width: auto;
     height: 1em;
@@ -531,24 +531,24 @@ body>main.homepage>.stats ul li p.label a svg {
 }
 
 @media(min-width:576px) {
-    body>main.homepage>.stats ul li p.label a svg {
+    body>main .stats ul li p.label a svg {
         display: none
     }
 }
 
 @media(min-width:768px) {
-    body>main.homepage>.stats ul li p.label a svg {
+    body>main .stats ul li p.label a svg {
         display: inline-block
     }
 }
 
 @media(min-width:576px) {
-    body>main.homepage>.stats ul li p.label a span.period-prefix {
+    body>main .stats ul li p.label a span.period-prefix {
         display: none
     }
 }
 
-body>main.homepage>.stats ul li p.period-suffix {
+body>main .stats ul li p.period-suffix {
     display: none;
     margin-bottom: 0;
     color: var(--pico-secondary);
@@ -556,156 +556,156 @@ body>main.homepage>.stats ul li p.period-suffix {
 }
 
 @media(min-width:576px) {
-    body>main.homepage>.stats ul li p.period-suffix {
+    body>main .stats ul li p.period-suffix {
         display: block
     }
 }
 
-body>main.homepage>.features>hgroup {
+body>main .features>hgroup {
     max-width: 950px;
     margin-bottom: calc(var(--pico-homepage-spacing-vertical) * .75);
     margin-inline: auto
 }
 
 @media(min-width:576px) {
-    body>main.homepage>.features>hgroup {
+    body>main .features>hgroup {
         text-align: center
     }
 }
 
-body>main.homepage>.features>hgroup>h2 {
+body>main .features>hgroup>h2 {
     margin-bottom: calc(var(--pico-spacing) * 1)
 }
 
-body>main.homepage>.features>hgroup>:not(:first-child):last-child {
+body>main .features>hgroup>:not(:first-child):last-child {
     --pico-color: var(--pico-color);
     text-wrap: pretty
 }
 
-body>main.homepage>.features>.grid {
+body>main .features>.grid {
     -moz-column-gap: calc(var(--pico-homepage-spacing-horizontal)/2);
     column-gap: calc(var(--pico-homepage-spacing-horizontal)/2);
     row-gap: calc(var(--pico-homepage-spacing-vertical)/2)
 }
 
 @media(min-width:768px) {
-    body>main.homepage>.features>.grid {
+    body>main .features>.grid {
         grid-template-columns: 1fr
     }
 }
 
 @media(min-width:1024px) {
-    body>main.homepage>.features>.grid {
+    body>main .features>.grid {
         grid-template-columns: 1fr 1fr
     }
 }
 
-body>main.homepage>.features>.grid article {
+body>main .features>.grid article {
     margin-bottom: 0;
     margin-block: 0;
     border: var(--pico-card-component-outline-width) solid var(--pico-card-component-outline-color)
 }
 
-body>main.homepage>.features>.grid article>svg {
+body>main .features>.grid article>svg {
     width: auto;
     height: 1.125rem;
     margin-bottom: calc(var(--pico-spacing) * .75);
     color: var(--pico-features-icon-color)
 }
 
-body>main.homepage>.features>.grid article>svg.pico-icon path {
+body>main .features>.grid article>svg.pico-icon path {
     fill: currentColor
 }
 
-body>main.homepage>.features>.grid article h3 {
+body>main .features>.grid article h3 {
     font-size: 1.25rem;
     line-height: 1.2
 }
 
-body>main.homepage>.features>.grid article p {
+body>main .features>.grid article p {
     margin-bottom: calc(var(--pico-spacing) * 1);
     color: var(--pico-muted-color);
     text-wrap: pretty
 }
 
-body>main.homepage>.features>.grid article p:last-child {
+body>main .features>.grid article p:last-child {
     margin-bottom: 0
 }
 
-body>main.homepage>.features>.grid article p:last-child a svg {
+body>main .features>.grid article p:last-child a svg {
     width: auto;
     height: 1rem;
     margin-left: calc(var(--pico-spacing) * .25)
 }
 
-body>main.homepage>.comparison>hgroup {
+body>main .comparison>hgroup {
     max-width: 700px;
     margin-bottom: calc(var(--pico-homepage-spacing-vertical) * .75);
     margin-inline: auto
 }
 
 @media(min-width:576px) {
-    body>main.homepage>.comparison>hgroup {
+    body>main .comparison>hgroup {
         text-align: center
     }
 }
 
 @media(min-width:768px) {
-    body>main.homepage>.comparison>hgroup {
+    body>main .comparison>hgroup {
         margin-bottom: calc(var(--pico-homepage-spacing-vertical)/3)
     }
 }
 
-body>main.homepage>.comparison>hgroup>h2 {
+body>main .comparison>hgroup>h2 {
     margin-bottom: calc(var(--pico-spacing) * 1)
 }
 
 @media(min-width:768px) {
-    body>main.homepage>.comparison>hgroup>h2 {
+    body>main .comparison>hgroup>h2 {
         margin-bottom: calc(var(--pico-spacing)/2)
     }
 }
 
-body>main.homepage>.comparison>hgroup>:not(:first-child):last-child {
+body>main .comparison>hgroup>:not(:first-child):last-child {
     --pico-color: var(--pico-color);
     text-wrap: pretty
 }
 
-body>main.homepage>.comparison>.grid {
+body>main .comparison>.grid {
     -moz-column-gap: calc(var(--pico-homepage-spacing-horizontal)/2);
     column-gap: calc(var(--pico-homepage-spacing-horizontal)/2);
     row-gap: calc(var(--pico-homepage-spacing-vertical)/2)
 }
 
 @media(min-width:768px) {
-    body>main.homepage>.comparison>.grid {
+    body>main .comparison>.grid {
         grid-template-columns: 1fr
     }
 }
 
 @media(min-width:1024px) {
-    body>main.homepage>.comparison>.grid {
+    body>main .comparison>.grid {
         grid-template-columns: repeat(auto-fit, minmax(0%, 1fr))
     }
 }
 
-body>main.homepage>.comparison>.grid>div {
+body>main .comparison>.grid>div {
     display: flex;
     flex-direction: column
 }
 
-body>main.homepage>.comparison>.grid>div p .emoji {
+body>main .comparison>.grid>div p .emoji {
     font-size: 1.25rem
 }
 
-body>main.homepage>.comparison>.grid>div .code {
+body>main .comparison>.grid>div .code {
     height: 100%;
     margin-bottom: 0;
     border: var(--pico-card-component-outline-width) solid var(--pico-card-component-outline-color);
     background-color: var(--pico-card-background-color)
 }
 
-body>main.homepage>.comparison>.grid>div .code:before {
+body>main .comparison>.grid>div .code:before {
     display: block;
     position: absolute;
     width: .25rem;
@@ -714,27 +714,27 @@ body>main.homepage>.comparison>.grid>div .code:before {
     content: ""
 }
 
-body>main.homepage>.comparison>.grid>div .code pre {
+body>main .comparison>.grid>div .code pre {
     height: 100%
 }
 
 @media(min-width:1024px) {
-    body>main.homepage>.comparison>.grid>div .code {
+    body>main .comparison>.grid>div .code {
         --pico-comparison-gradient-direction: to right
     }
 
-    body>main.homepage>.comparison>.grid>div .code:before {
+    body>main .comparison>.grid>div .code:before {
         width: 100%;
         height: .25rem;
         inset: 0 0 auto
     }
 }
 
-body>main.homepage>.comparison>.grid>div.pico .code:before {
+body>main .comparison>.grid>div.pico .code:before {
     background: var(--pico-comparison-gradient-valid)
 }
 
-body>main.homepage>.comparison>.grid>div.utility-framework .code:before {
+body>main .comparison>.grid>div.utility-framework .code:before {
     background: var(--pico-comparison-gradient-invalid)
 }
 
@@ -749,28 +749,35 @@ body>main>.examples-hero {
     }
 }
 
-body>main>.examples-list {
+body>main .examples-list {
     display: grid;
     -moz-column-gap: calc(var(--pico-homepage-spacing-horizontal)/2);
     column-gap: calc(var(--pico-homepage-spacing-horizontal)/2);
     row-gap: calc(var(--pico-homepage-spacing-vertical)/2);
-    margin-top: calc(var(--pico-homepage-spacing-vertical)/2)
+    margin-top: calc(var(--pico-homepage-spacing-vertical)/2);
+
+    --angle: 0deg;
+    --demo-border-gradient: linear-gradient(var(--angle), var(--pico-demo-border-gradient-colors));
+    display: flex;
+    position: relative;
+    flex-direction: column
+    
 }
 
 @media(min-width:1024px) {
-    body>main>.examples-list {
+    body>main .examples-list {
         grid-template-columns: 1fr 1fr;
         row-gap: calc(var(--pico-homepage-spacing-horizontal)/2)
     }
 }
 
 @media(min-width:1536px) {
-    body>main>.examples-list {
+    body>main .examples-list {
         grid-template-columns: 1fr 1fr 1fr
     }
 }
 
-body>main>.examples-list article {
+body>main .examples-list article {
     margin: 0;
     outline-color: var(--pico-card-component-outline-color);
     outline-style: solid;
@@ -778,18 +785,18 @@ body>main>.examples-list article {
 }
 
 @media(min-width:1280px) {
-    body>main>.examples-list article {
+    body>main .examples-list article {
         --pico-block-spacing-vertical: calc(var(--pico-spacing) * 1.75);
         --pico-block-spacing-horizontal: calc(var(--pico-spacing) * 1.75)
     }
 }
 
-body>main>.examples-list article .badges {
+body>main .examples-list article .badges {
     display: flex;
     margin-bottom: calc(var(--pico-spacing)/2)
 }
 
-body>main>.examples-list article .badges .badge {
+body>main .examples-list article .badges .badge {
     padding: .125rem .25rem;
     border-radius: .125rem;
     font-weight: 600;
@@ -798,71 +805,71 @@ body>main>.examples-list article .badges .badge {
     vertical-align: text-bottom
 }
 
-body>main>.examples-list article .badges .badge:not(:last-child) {
+body>main .examples-list article .badges .badge:not(:last-child) {
     margin-right: calc(var(--pico-spacing)/2)
 }
 
-body>main>.examples-list article .badges .badge.html {
+body>main .examples-list article .badges .badge.html {
     background-color: var(--pico-badge-html-background-color);
     color: var(--pico-badge-html-color)
 }
 
-body>main>.examples-list article .badges .badge.react {
+body>main .examples-list article .badges .badge.react {
     background-color: var(--pico-badge-react-background-color);
     color: var(--pico-badge-react-color)
 }
 
-body>main>.examples-list article .badges .badge.sass {
+body>main .examples-list article .badges .badge.sass {
     background-color: var(--pico-badge-sass-background-color);
     color: var(--pico-badge-sass-color)
 }
 
-body>main>.examples-list article .badges .badge.javascript {
+body>main .examples-list article .badges .badge.javascript {
     background-color: var(--pico-badge-javascript-background-color);
     color: var(--pico-badge-javascript-color)
 }
 
-body>main>.examples-list article .badges .badge.css {
+body>main .examples-list article .badges .badge.css {
     background-color: var(--pico-badge-css-background-color);
     color: var(--pico-badge-css-color)
 }
 
-body>main>.examples-list article h2 {
+body>main .examples-list article h2 {
     font-size: 1.25rem;
     line-height: 1.2;
     text-wrap: balance;
     margin-bottom: calc(var(--pico-spacing)/4)
 }
 
-body>main>.examples-list article p {
+body>main .examples-list article p {
     color: var(--pico-muted-color);
     text-wrap: pretty
 }
 
-body>main>.examples-list article p:not(:last-child) {
+body>main .examples-list article p:not(:last-child) {
     margin-bottom: calc(var(--pico-spacing) * 1.5)
 }
 
-body>main>.examples-list article p.links {
+body>main .examples-list article p.links {
     margin-bottom: 0
 }
 
-body>main>.examples-list article p.links a {
+body>main .examples-list article p.links a {
     display: block
 }
 
-body>main>.examples-list article p.links a:not(:last-child) {
+body>main .examples-list article p.links a:not(:last-child) {
     margin-bottom: calc(var(--pico-spacing)/4)
 }
 
-body>main>.examples-list article p.links a svg {
+body>main .examples-list article p.links a svg {
     width: auto;
     height: 1rem;
     margin-right: calc(var(--pico-spacing)/4);
     transform: translateY(-.0625rem)
 }
 
-body>main>.examples-list article p.links a svg.pico-icon path {
+body>main .examples-list article p.links a svg.pico-icon path {
     fill: currentColor
 }
 
