@@ -15,8 +15,8 @@ layout: default
 </section>
 
 
-<section class="examples-list">
-
+<section class="examples-list hero">
+<div class="demo">
     <article>
         <div class="badges"><span class="badge html">HTML</span><span class="badge javascript">JavaScript</span></div>
         <h2>Preview</h2>
@@ -43,7 +43,7 @@ layout: default
         
         </p>
     </article>
-    
+   </div> 
 </section>
 
 

@@ -758,9 +758,7 @@ body>main .examples-list {
 
     --angle: 0deg;
     --demo-border-gradient: linear-gradient(var(--angle), var(--pico-demo-border-gradient-colors));
-    display: flex;
-    position: relative;
-    flex-direction: column
+
     
 }
 
