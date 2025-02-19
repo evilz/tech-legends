@@ -762,6 +762,27 @@ body>main .examples-list {
     
 }
 
+
+body>main .examples-list:before {
+    z-index: 0;
+    position: absolute;
+    inset: -3rem;
+    border-radius: var(--pico-border-radius);
+    background: var(--demo-border-gradient);
+    content: "";
+    filter: blur(3rem);
+    opacity: .25
+}
+
+body>main .examples-list:after {
+    z-index: -1;
+    position: absolute;
+    inset: -1px;
+    border-radius: var(--pico-border-radius);
+    background: var(--demo-border-gradient);
+    content: ""
+}
+
 @media(min-width:1024px) {
     body>main .examples-list {
         grid-template-columns: 1fr 1fr;

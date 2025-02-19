@@ -5,9 +5,8 @@ layout: default
 
 <section class="hero">
 <div class="hook">
- <h1><mark>🚀 Tech Legends</mark></h1>
- <p class="secondary">Bienvenue sur **Tech Legends**, une collection des personnalités les plus influentes de
-        l'histoire de la technologie.</p>
+ <h1><mark>🌟 Tech Legends</mark></h1>
+ <p class="secondary">Une collection des personnalités les plus influentes de l'histoire de la technologie.</p>
 </div>
    
 
@@ -15,8 +14,7 @@ layout: default
 </section>
 
 
-<section class="examples-list hero">
-<div class="demo">
+<section class="examples-list">
     <article>
         <div class="badges"><span class="badge html">HTML</span><span class="badge javascript">JavaScript</span></div>
         <h2>Preview</h2>
@@ -43,7 +41,6 @@ layout: default
         
         </p>
     </article>
-   </div> 
 </section>
 
 
