@@ -1,3 +1,4 @@
-theme: jekyll-theme-cayman
 title: "Tech Legends"
 description: "Les figures les plus influentes de l'histoire de la technologie"
+markdown: kramdown
+permalink: pretty
