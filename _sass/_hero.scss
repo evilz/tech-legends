@@ -109,6 +109,14 @@ body > main > .hero {
       margin-bottom: calc(var(#{$css-var-prefix}spacing) * 2);
     }
 
+    mark {
+        padding: 0;
+        background: var(--pico-mark-gradient);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
     .grid.ctas {
       #{$css-var-prefix}form-element-spacing-horizontal: 2rem;
       margin-top: calc(var(#{$css-var-prefix}spacing) * 4);
