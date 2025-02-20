@@ -27,3 +27,19 @@ $codepen-color: black;
 $rss-color: #ff6600;
 
 @import "-sections-dir";
+
+
+
+mark {
+    padding: 0;
+    background: var(--pico-mark-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent
+}
+
+@media (min-width: 576px) {
+    body>main .hero .hook h1, body>main .hero .hook p {
+        text-align: center;
+    }
+}
