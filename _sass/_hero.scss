@@ -1,3 +1,74 @@
+:root:not([data-theme=dark]),[data-theme=light] {
+    --pico-demo-border-gradient-colors: transparent 33%,#e9cbe8,#ddcef4,#d0d3f2,#cbd4f5;
+    --pico-card-box-shadow: var(--pico-box-shadow);
+    --pico-card-component-outline-width: .0625rem;
+    --pico-card-component-outline-color: transparent;
+    --pico-mark-gradient: linear-gradient(to right, #84266d, #6f3985, #5d409a, #43489d);
+    --pico-stats-color: #2a628a;
+    --pico-features-icon-color: #934daf;
+    --pico-comparison-gradient-valid: linear-gradient(var(--pico-comparison-gradient-direction, to bottom), #7bb2c6, #5aa6a4, #649b66);
+    --pico-comparison-gradient-invalid: linear-gradient(var(--pico-comparison-gradient-direction, to bottom), #d0a164, #cf7e6d, #d46c63);
+    --pico-badge-html-background-color: rgba(168, 52, 16, .125);
+    --pico-badge-html-color: #a83410;
+    --pico-badge-react-background-color: rgba(35, 114, 143, .125);
+    --pico-badge-react-color: #23728f;
+    --pico-badge-sass-background-color: rgba(150, 45, 124, .125);
+    --pico-badge-sass-color: #962d7c;
+    --pico-badge-javascript-background-color: rgba(130, 84, 0, .125);
+    --pico-badge-javascript-color: #825400;
+    --pico-badge-css-background-color: rgba(29, 89, 208, .125);
+    --pico-badge-css-color: #1d59d0
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+    :root:not([data-theme]) {
+        --pico-demo-border-gradient-colors:transparent 33%,#4a1544,#3b2156,#2d2565,#1a2b6b;
+        --pico-card-box-shadow: none;
+        --pico-card-background-color: #161922;
+        --pico-card-component-outline-width: .0625rem;
+        --pico-card-component-outline-color: #1c212c;
+        --pico-card-border-color: var(--pico-card-component-outline-color);
+        --pico-mark-gradient: linear-gradient(to right, #d78dd2, #b999ee, #9da5e9, #8fa9f0);
+        --pico-stats-color: #79b0e3;
+        --pico-features-icon-color: #b999ee;
+        --pico-comparison-gradient-valid: linear-gradient(var(--pico-comparison-gradient-direction, to bottom), #4f7c94, #3a7174, #3f6643);
+        --pico-comparison-gradient-invalid: linear-gradient(var(--pico-comparison-gradient-direction, to bottom), #8b6e4d, #994e3f, #983734);
+        --pico-badge-html-background-color: rgba(225, 150, 128, .125);
+        --pico-badge-html-color: #e19680;
+        --pico-badge-react-background-color: rgba(79, 168, 195, .125);
+        --pico-badge-react-color: #4fa8c3;
+        --pico-badge-sass-background-color: rgba(205, 152, 199, .125);
+        --pico-badge-sass-color: #cd98c7;
+        --pico-badge-javascript-background-color: rgba(188, 167, 100, .125);
+        --pico-badge-javascript-color: #bca764;
+        --pico-badge-css-background-color: rgba(156, 167, 250, .125);
+        --pico-badge-css-color: #9ca7fa
+    }
+}
+
+[data-theme=dark] {
+    --pico-demo-border-gradient-colors: transparent 33%,#4a1544,#3b2156,#2d2565,#1a2b6b;
+    --pico-card-box-shadow: none;
+    --pico-card-background-color: #161922;
+    --pico-card-component-outline-width: .0625rem;
+    --pico-card-component-outline-color: #1c212c;
+    --pico-card-border-color: var(--pico-card-component-outline-color);
+    --pico-mark-gradient: linear-gradient(to right, #d78dd2, #b999ee, #9da5e9, #8fa9f0);
+    --pico-stats-color: #79b0e3;
+    --pico-features-icon-color: #b999ee;
+    --pico-comparison-gradient-valid: linear-gradient(var(--pico-comparison-gradient-direction, to bottom), #4f7c94, #3a7174, #3f6643);
+    --pico-comparison-gradient-invalid: linear-gradient(var(--pico-comparison-gradient-direction, to bottom), #8b6e4d, #994e3f, #983734);
+    --pico-badge-html-background-color: rgba(225, 150, 128, .125);
+    --pico-badge-html-color: #e19680;
+    --pico-badge-react-background-color: rgba(79, 168, 195, .125);
+    --pico-badge-react-color: #4fa8c3;
+    --pico-badge-sass-background-color: rgba(205, 152, 199, .125);
+    --pico-badge-sass-color: #cd98c7;
+    --pico-badge-javascript-background-color: rgba(188, 167, 100, .125);
+    --pico-badge-javascript-color: #bca764;
+    --pico-badge-css-background-color: rgba(156, 167, 250, .125);
+    --pico-badge-css-color: #9ca7fa
+}
 
 body > main > .hero {
   display: grid;
