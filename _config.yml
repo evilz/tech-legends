@@ -1,57 +1,19 @@
-title: Vonge
+# Site Build Settings
 
-plugins:
-  - jekyll-bookshop
-  - jekyll-sitemap
-  - jekyll/tagging
+# jekyll-paginate configuration
+paginate:            5
 
-# Multiple bookshops can be used on one website,
-# or different production / staging locations.
-bookshop_locations:
-  - ../component-library
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
-exclude:
-  - postcss.config.js
-  - node_modules
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		           "Millennial"
+description:	       "a minimalist Jekyll theme for running a blog or publication"
+author:              "Paul Le"
 
-include:
-  - _cloudcannon
-
-collections_dir: 'collections'
-
-collections:
-  pages:
-    output: true
-    permalink: /:title/
-  projects:
-    output: true
-    permalink: /project/:slug
-  testimonials:
-    output: false
-  posts:
-    output: true
-    permalink: /blog/:slug
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
-  - scope:
-      type: pages
-      path: _pages/index.html
-    values:
-      permalink: /
-  - scope:
-      type: projects
-    values:
-      layout: project
-  - scope:
-      type: posts
-    values:
-      layout: post
-
-# Tags
-tag_page_dir: tag
-tag_page_layout: tag_page
-tag_permalink_style: /:title
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml
