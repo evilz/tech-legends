@@ -24,7 +24,7 @@ If you like my work then please consider supporting me with [Ko-fi](https://ko-f
 
 1. [Introduction](#introduction)
    1. [What is Jekyll](#what-is-jekyll)
-   2. [Never Used Jeykll Before?](#never-used-jekyll-before)
+   2. [Never Used Jekyll Before?](#never-used-jekyll-before)
 2. [Installation](#installation)
    1. [GitHub Pages Installation](#github-pages-installation)
    2. [Local Installation](#local-installation)
@@ -74,7 +74,7 @@ Head over to the `_posts` directory to view all the posts that are currently on 
 
 ### Local Installation
 
-For a full local installation of Millennial, [download your own copy of Millennial](https://github.com/LeNPaul/Millennial/archive/gh-pages.zip) and unzip it into it's own directory. From there, open up your favorite command line tool, enter `bundle install`, and then enter `jekyll serve`. Your site should be up and running locally at [http://localhost:4000](http://localhost:4000).
+For a full local installation of Millennial, [download your own copy of Millennial](https://github.com/LeNPaul/Millennial/archive/gh-pages.zip) and unzip it into its own directory. From there, open up your favorite command line tool, enter `bundle install`, and then enter `jekyll serve`. Your site should be up and running locally at [http://localhost:4000](http://localhost:4000).
 
 ### Directory Structure
 
@@ -141,7 +141,7 @@ title: "Example Post"
 ---
 ```
 
-Examples of what posts looks like can be found in the `_posts` directory, which includes this post you are reading right now. Posts are the basic blog post layout, which includes a header image, post content, author name, date published, social media sharing links, and related posts.
+Examples of what posts look like can be found in the `_posts` directory, which includes this post you are reading right now. Posts are the basic blog post layout, which includes a header image, post content, author name, date published, social media sharing links, and related posts.
 
 Pages are essentially the post layout without any of the extra features of the posts layout. An example of what pages look like can be found at the [documentation page](https://lenpaul.github.io/Millennial/pages/documentation.html).
 
